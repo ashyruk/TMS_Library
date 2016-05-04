@@ -2,17 +2,126 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Твоя личная библиотека</title>
+    <title>#BookWorm</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,300italic,400italic,700,700italic,900,900italic' rel='stylesheet'>
 </head>
 <body>
     <div class="content">
-        <div>
+        <i class="fa fa-bars"></i>
+        <h1 class="logo">#BookWorm</h1>
+
+        <!-- Header Nav -->
+        <div id="header" class="header">
+            <div id="nav">
+                <ul class="nav navbar-nav">
+                    <li class="menuItem">
+                        <!--<a href="#home">Home</a>-->
+                    </li>
+                    <li class="menuItem">
+                        <!--<a href="#download">Download</a>-->
+                    </li>
+                    <li class="menuItem">
+                        <!--<a href="#setup">Setup</a>-->
+                    </li>
+                    <li class="menuItem">
+                        <!--<a href="#markup">HTML</a>-->
+                    </li>
+                    <li class="menuItem">
+                        <a href="#CSS">CSS</a>
+                    </li>
+                    <li class="menuItem">
+                        <a href="#jquery">jQuery</a>
+                    </li>
+                    <li class="menuItem">
+                        <!--<a href="#options">Options</a>-->
+                    </li>
+                    <li class="menuItem">
+                        <!--<a href="#credits">Credits</a>-->
+                    </li>
+                    <li class="menuItem">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End #nav -->
+        </div>
+        <!-- End #header -->
+
+        <header>
+            <div class="header">
+                <div class="logo">Logo</div>
+                <nav class="menu">
+
+                </nav>
+
+            </div>
+        </header>
+        <!-- START CSS -->
+        <div id="CSS" class="scrollto">
+            <div class="wrap">
+                <h2>4. CSS</h2>
+                <p>
+                    The styling of the navigation our CSS:
+                </p>
+			<pre class="brush: css">
+				 0, 0); }
+			</pre>
+                <p>
+                    This ensures theation during CSS3 animations.
+                </p>
+            </div>
+            <!-- End Wrap -->
+        </div>
+        <!-- End #CSS -->
+        <!-- START jQuery -->
+        <div id="jquery" class="scrollto">
+            <div class="wrap">
+                <h2>5. jQuery</h2>
+                <p>
+                    Call stickyNavbar function on the navigation wrapper, ut options object:
+                </p>
+			<pre class="brush: js">
+				 $(function () { $('.header').stickyNavbar(); });
+			</pre>
+                <p>
+                    or with the options object:
+                </p>
+			<pre class="brush: js">
+				 ctor to which activeClass r "a" or "li" }); });
+			</pre>
+            </div>
+            <!-- End Wrap -->
+        </div>
+        <!-- End #jQuery -->
+
+        <div id="contact" class="scrollto">
+            <div class="wrap">
+                <h2>Contact</h2>
+                <p class="align-center">
+                    Copyright &copy; 2016 <br>
+                    <a href="http://www.github.com/jbutko">www.github.com/ashyruk</a><br>
+                    <a target="_blank" href="http://www.twitter.com/">@tweet</a>
+                </p>
+            </div>
+            <!-- End Wrap -->
+        </div>
+        <!-- End Contact -->
+        <div class="footer">
+            <p>
+                Copyright © 2016 Rybak Valery<br>
+                <a href="http://www.github.com/ashyruk">www.github.com/ashyruk</a><br>
+                <a target="_blank" href="http://api.jquery.com/"><i class="fa fa-heart"></i>jQuery</a><br>
+            </p>
 
         </div>
 
     </div>
-<script src="Script.js"></script>
+    <script src="Script.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="//cdn.jsdelivr.net/stickynavbar.js/1.3.2/jquery.stickyNavbar.min.js"></script>
 </body>
 </html>

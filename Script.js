@@ -6,5 +6,5 @@
 
 
 $(document).on("click", function () {
-    alert("Привет!")
+    //alert("Привет!")
 });
